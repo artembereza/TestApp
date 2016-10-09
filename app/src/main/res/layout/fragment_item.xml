@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_marginBottom="5dp"
-    android:layout_marginLeft="5dp"
-    android:layout_marginRight="5dp"
-    android:layout_marginTop="5dp">
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="-5dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="-5dp"
+    android:orientation="vertical">
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardView"
@@ -33,15 +33,15 @@
                 android:paddingBottom="5dp" />
 
             <LinearLayout
-                android:orientation="vertical"
-                android:layout_gravity="center_vertical"
-                android:layout_column="1"
-                android:layout_row="0"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_row="0"
+                android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/title"
+                    android:id="@+id/item_title"
                     android:layout_width="74dp"
                     android:layout_height="wrap_content"
                     android:paddingBottom="5dp"
@@ -50,7 +50,7 @@
                     android:textSize="10pt" />
 
                 <TextView
-                    android:id="@+id/description"
+                    android:id="@+id/item_status"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Available" />
@@ -66,11 +66,7 @@
                 android:layout_row="0"
                 android:background="@drawable/ic_keyboard_arrow_right_black_24dp" />
 
-
-
-
         </GridLayout>
-
 
     </android.support.v7.widget.CardView>
 

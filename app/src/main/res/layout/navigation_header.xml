@@ -2,22 +2,35 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="192dp"
+    android:layout_height="160dp"
     android:background="@color/colorGrey"
+    android:gravity="bottom"
     android:orientation="vertical"
-    android:weightSum="1">
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
 
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="142dp"
-        android:layout_height="136dp"
+        android:id="@+id/header_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
         app:srcCompat="@drawable/ic_brightness_24dp" />
 
-    <Spinner
-        android:id="@+id/spinner"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Android Dev"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hellofromdev@android.com" />
 
 
 </LinearLayout>
