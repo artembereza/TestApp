@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class FirstFragment extends Fragment {
 
-    private ItemListAdapter itemListAdapter;
+
     private ArrayList<Item> itemList;
 
     public FirstFragment() {

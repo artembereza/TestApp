@@ -45,15 +45,13 @@
                     android:layout_width="74dp"
                     android:layout_height="wrap_content"
                     android:paddingBottom="5dp"
-                    android:text="Line 1"
                     android:textColor="@color/colorGrey"
                     android:textSize="10pt" />
 
                 <TextView
                     android:id="@+id/item_status"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Available" />
+                    android:layout_height="wrap_content"/>
 
             </LinearLayout>
 
@@ -62,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_column="2"
-                android:layout_gravity="top|right"
+                android:layout_gravity="top|end"
                 android:layout_row="0"
                 android:background="@drawable/ic_keyboard_arrow_right_black_24dp" />
 

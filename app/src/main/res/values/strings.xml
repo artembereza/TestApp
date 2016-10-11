@@ -6,4 +6,13 @@
     <string name="settings">Settings</string>
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
+    <string name="email">Sample@gmail.com</string>
+    <string name="email_title">Name Surname</string>
+
+    <string name="first_group_title">First</string>
+    <string name="first_group_description">FirstGroup</string>
+
+    <string name="second_group_title">Second</string>
+    <string name="second_group_description">SecondGroup</string>
+
 </resources>
